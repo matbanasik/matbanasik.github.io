@@ -1,0 +1,143 @@
+html{
+
+    font-family: 'Raleway', sans-serif;
+    
+    body{
+        width: 100%;
+        background-color: #000;
+        margin: 0;
+        padding: 0;
+        
+        main{
+            width: 100%;
+            
+            .projects{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                
+                .single-project{
+                    width: 400px;
+                    height: 350px;
+                    position: relative;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                    margin: 50px;
+                    
+                    
+                    &:hover .inner-content{
+                     transform: scale(1.1);
+                }
+                    
+                 
+                    .project-1{
+                        background: url('../images/1.PNG');
+                    }
+                    
+                    .project-2{
+                        background: url('../images/2.PNG');
+                    }
+                    
+                    .project-3{
+                        background: url('../images/3.PNG');
+                    }
+                    
+                    .project-4{
+                        background: url('../images/4.PNG');
+                    }
+                    
+                    .project-5{
+                        background: url('../images/5.PNG');
+                    }
+                    
+                    .project-6{
+                        background: url('../images/6.PNG');
+                    }
+                    
+                    .project-7{
+                        background: url('../images/7.PNG');
+                    }
+                    
+                    .project-8{
+                        background: url('../images/8.PNG');
+                    }
+                    
+                    .project-9{
+                        background: url('../images/9.PNG');
+                    }
+                    
+                    .inner-content{
+                        width: 100%;
+                        height: 100%;
+                        background-size: cover;
+                        transition: .5s ease;
+                    }
+                    
+                    
+                    
+                    .project-info{
+                        background: rgba(14, 47, 68, 0.8);
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 1;
+                        display: none;
+                        
+                        .project-title{
+                            width: 100%;
+                            background-color: #000;
+                            color: #fff;
+                            text-transform: uppercase;
+                            padding: 10px;
+                            text-align: center;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .project-description{
+                            width: 60%;
+                            color: #fff;
+                            margin: auto;
+                            text-transform: uppercase;
+                            font-size: 16px;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .links{
+                            display: flex;
+                            width: 80%;
+                            margin: auto;
+                            justify-content: center;
+                            
+                            .demo{
+                                display: block;
+                                box-sizing: border-box;
+                                background-color: #000;
+                                text-decoration: none;
+                                color: #fff;
+                                padding: 10px;
+                                text-align: center;
+                                margin-right: 10px;
+                            }
+                            
+                            .github{
+                                display: block;
+                                box-sizing: border-box;
+                                background-color: #000;
+                                text-decoration: none;
+                                color: #fff;
+                                padding: 10px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                
+                
+            }
+        }
+    }
+}
