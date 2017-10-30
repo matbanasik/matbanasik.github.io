@@ -14,7 +14,7 @@ html{
             .projects{
                 width: 100%;
                 display: flex;
-                justify-content: space-around;
+                justify-content: center;
                 flex-wrap: wrap;
                 box-sizing: border-box;
                 
@@ -24,7 +24,7 @@ html{
                     position: relative;
                     overflow: hidden;
                     box-sizing: border-box;
-                    margin: 50px;
+                    margin: 30px;
                     
                     
                     &:hover .inner-content{
